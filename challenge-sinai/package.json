@@ -1,0 +1,23 @@
+{
+    "name": "sinai",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "mocha": "^9.1.1",
+        "mochawesome": "^6.2.2",
+        "mochawesome-merge": "^4.2.0"
+    },
+    "devDependencies": {
+        "@cypress/webpack-batteries-included-preprocessor": "^2.2.3",
+        "@cypress/webpack-preprocessor": "^5.9.1",
+        "cypress": "^11.2.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "report": "cypress run mochawesome"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
