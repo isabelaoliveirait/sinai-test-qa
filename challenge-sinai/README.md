@@ -54,10 +54,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Executation Screen Shot][product-screenshot3]](https://imgur.com/WvkGSc8.png)
-[![SINAI Screen Shot][product-screenshot]](https://imgur.com/uA1nKGi.png)
-[![Pipeline Screen Shot][product-screenshot1]](https://imgur.com/ynEjzcP.png)
-[![Build Screen Shot][product-screenshot2]](https://imgur.com/ruxmTpE.png)
+[![Executation Screen Shot][product-screenshot3]]()
+[![SINAI Screen Shot][product-screenshot]]()
+[![Pipeline Screen Shot][product-screenshot1]]()
+[![Build Screen Shot][product-screenshot2]]()
 
 
 
