@@ -49,34 +49,6 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Executation Screen Shot][product-screenshot3]]()
-[![SINAI Screen Shot][product-screenshot]]()
-[![Pipeline Screen Shot][product-screenshot1]]()
-[![Build Screen Shot][product-screenshot2]]()
-
-
-
-# Task: Automated some test cases.
-
-Take the following into account:
-
-● When a user goes into https://zenklub.com.br/auth/login and use qa-automation@zenklub.com
-as email and qachallenge as password he needs to be able to login on our website. <br />
-● After user login he should be redirected to /profile/sessions and should not have any session
-scheduled. <br />
-● When user clicks on “NOSSOS ESPECIALISTAS” he will be redirected to /busca. <br />
-● When user clicks on “Gostei quero saber mais” on the first professional that appear on the list he
-needs to be redirected to professional page. <br />
-● When the user is on the professional page, he needs to see more information about the
-professional he chose and select an hour. <br />
-● Then validate that it is on the checkout page. <br />
-
-
 ### Built With
 
 These were the frameworks used in the development of the challenge.I used Cypress in the most current version for the development of test scrits and I used the CI of the Github to include an automatic build with the result of the execution of my test cases. Thinking about the importance of having an automated pipeline and thus maintaining the quality of the project, an automated build was inserted through the github repository.
@@ -90,7 +62,7 @@ Pre-settings: <br />
 ● Chrome or similar Browser installed <br />
 ● Node.js installed <br />
 ● IDE installed <br />
-● open IDE terminal and add cypress dependencies: npm install --save-dev cypress@7.1.0 <br />
+● open IDE terminal and add cypress dependencies: npm install --save-dev cypress@11.1.0 <br />
 ● start cypress with: node_modules/.bin/cypress open <br />
 
 
@@ -99,13 +71,13 @@ Pre-settings: <br />
 1. Get more context about the first steps here: [Guide install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 2. Clone the repo
    ```sh
-   git clone https://github.com/isabelaoliveirait/challenge-zenklub
+   git clone https://github.com/isabelaoliveirait/challenge-sinai
    or 
    download zip 
    ```
 3. Install the cypress dependency
    ```sh
-   npm install -D cypress@7.1.0
+   npm install -D cypress@11.1.0
    ```
 4. To open the cypress 
    ```sh
@@ -143,24 +115,6 @@ Pre-settings: <br />
     actions
    ```   
 
-<!-- Solution -->
-## Solution
-
-* In the first moment of the project I navigated through the site to better understand the structure of the page and know the requested features.I noticed some things on the Zenklub plataform:
-* The design page object pattern was implemented in the project to standardize the project and thus make it more organized.
-* All nomenclatures were designed taking into account the principles of clean code in order to avoid code smells.
-
-1. The site saves the user's session in the browser, which at first caused a little difficulty in running the automated tests, but after I realized this I was able to complete the steps.
-* Once that was done, I started to implement the scenario that were requested:
-1. I created the requested scenario simulating the user's behavior on the screen. In the created scenario include the steps necessary to simulate such behavior:
-2. Access the Zenklub page
-3. Login as an user on the Zenklub Page
-4. The user search for a professional
-5. The click on the button Gostei e Quero Saber Mais
-6. The user select a schedule a meeting with the profissional
-7. Validate that the user is on the checkout page'
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -178,9 +132,5 @@ Github Page: [Github](https://github.com/isabelaoliveirait)
 [github-url]: https://github.com/isabelaoliveirait
 [gmail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [gmail-url]: isa.oliver20@gmail.com
-[product-screenshot]: https://imgur.com/uA1nKGi.png
-[product-screenshot1]: https://imgur.com/ynEjzcP.png
-[product-screenshot2]: https://imgur.com/ruxmTpE.png
-[product-screenshot3]: https://imgur.com/WvkGSc8.png
 
 
