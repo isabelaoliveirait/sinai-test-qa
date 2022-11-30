@@ -3,6 +3,10 @@
 const el = require('./elements').ELEMENTS;
 
 class Login {
+
+    /**
+     * @description Access The EPA Footprint Carbon Calculator Page
+     */
     accessEPAPage() {
         cy.visit('https://www3.epa.gov/carbon-footprint-calculator/');
     }
