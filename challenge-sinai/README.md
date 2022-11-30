@@ -49,6 +49,15 @@
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![sinai](https://user-images.githubusercontent.com/43921007/204856312-1dd180ad-f42f-45cb-a518-2e0fcc15072d.PNG)
+
+
+# Task: Write different test cases to fill out all the tabs and calculate the Footprint Carbon.
+Using this website: https://www3.epa.gov/carbon-footprint-calculator/
+
 ### Built With
 
 These were the frameworks used in the development of the challenge.I used Cypress in the most current version for the development of test scrits and I used the CI of the Github to include an automatic build with the result of the execution of my test cases. Thinking about the importance of having an automated pipeline and thus maintaining the quality of the project, an automated build was inserted through the github repository.
