@@ -71,6 +71,7 @@ Pre-settings: <br />
 1. Get more context about the first steps here: [Guide install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 2. Clone the repo
    ```sh
+   git clone https://github.com/isabelaoliveirait/challenge-sinai
    or 
    download zip 
    ```
@@ -131,9 +132,5 @@ Github Page: [Github](https://github.com/isabelaoliveirait)
 [github-url]: https://github.com/isabelaoliveirait
 [gmail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [gmail-url]: isa.oliver20@gmail.com
-[product-screenshot]: https://imgur.com/uA1nKGi.png
-[product-screenshot1]: https://imgur.com/ynEjzcP.png
-[product-screenshot2]: https://imgur.com/ruxmTpE.png
-[product-screenshot3]: https://imgur.com/WvkGSc8.png
 
 
