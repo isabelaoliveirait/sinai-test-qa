@@ -49,24 +49,6 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Executation Screen Shot][product-screenshot3]]()
-[![SINAI Screen Shot][product-screenshot]]()
-[![Pipeline Screen Shot][product-screenshot1]]()
-[![Build Screen Shot][product-screenshot2]]()
-
-
-
-# Task: Automated some test cases.
-
-Take the following into account:
-
-● When a user goes into https://www3.epa.gov/carbon-footprint-calculator/
-
 ### Built With
 
 These were the frameworks used in the development of the challenge.I used Cypress in the most current version for the development of test scrits and I used the CI of the Github to include an automatic build with the result of the execution of my test cases. Thinking about the importance of having an automated pipeline and thus maintaining the quality of the project, an automated build was inserted through the github repository.
@@ -89,7 +71,6 @@ Pre-settings: <br />
 1. Get more context about the first steps here: [Guide install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 2. Clone the repo
    ```sh
-   git clone https://github.com/isabelaoliveirait/sinai-test-qa.git
    or 
    download zip 
    ```
